@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    eslint: {
-      ignoreDuringBuilds: true,
-    },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 

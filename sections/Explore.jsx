@@ -8,7 +8,7 @@ import { staggerContainer } from "../utils/motion";
 import { exploreWorlds } from "../constants";
 
 const Explore = () => {
- const [active,setActive] = useState("world-2");
+  const [active, setActive] = useState("world-2");
   return (
     <section className={`${styles.paddings}`} id="Explore">
       <motion.div
@@ -25,7 +25,8 @@ const Explore = () => {
               Choose the World you want <br className="md:block hidden" /> to
               explore
             </>
-          } textStyles="text-center"
+          }
+          textStyles="text-center"
         />
         <div className="mt-[50px] flex md:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
